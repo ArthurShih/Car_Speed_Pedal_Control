@@ -44,7 +44,7 @@ for i in range(0,N):
 plt.figure(1)
 plt.suptitle("Car Velocity plot")
 plt.subplot(211)
-plt.title("Car velocity")
+plt.title("Car velocity, V end ="+str(round(vdata[-1])))
 plt.plot(t,vdata,'r-')
 plt.plot([t_start,t_end],[target_velocity,target_velocity],'k-') # Setpoint is 30
 plt.legend(["Velocity","Set point"])
@@ -60,7 +60,7 @@ plt.ylabel("%")
 # TODO: Use PID controller to control car velocity when passing through uphills or downhills
 
 # By the graph we plot, notice that 
-deltav = 42.5 
+deltav = 43 
 deltau = 45
 Kp = deltav / deltau
 theta_p = 0
