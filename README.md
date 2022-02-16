@@ -19,7 +19,6 @@
 ###### tao_i = tao_p + 0.5*theta_p
 ###### tao_d = (tao_p*theta_p)/(2*tao_p+theta_p)
 ###### To accelerate controller, I doubled value Kc
-###### .
 #### Random road angle
 ###### Now we are ready to control car's speed into our desired speed. 
 ###### TODO: Control car's velocity when it passes through uphills or downhills.(angle of uphills and downhills are generated randomly between -30~30 degrees)
