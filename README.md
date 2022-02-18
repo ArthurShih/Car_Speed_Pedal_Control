@@ -1,4 +1,4 @@
-# Car_Velocity_PID_control
+# Car_Speed_Pedal_control
 ### Model
 ![Model](https://github.com/ArthurShih/Car_Velocity_PID_control/blob/master/figure/Model.png)
 ###### In model, F is thrust parameter(N/%pedal), and u is % of pedal.
