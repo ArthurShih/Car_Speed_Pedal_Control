@@ -1,7 +1,3 @@
-# Car_velocity control_DC motror
-###### see more detial in Control by DC motor/Velocity Control by DCmotor.pdf
-###### Run car_model_parameters.m and controller_design.m first
-
 # Car_Speed_Pedal_control
 ### Model
 ![Model](https://github.com/ArthurShih/Car_Velocity_PID_control/blob/master/figure/Model.png)
